@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WpfControlLibrary1", "WpfControlLibrary1\WpfControlLibrary1.vbproj", "{76CB5867-B1DF-4433-A297-4E3972A4A8D9}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WpfApp1", "WpfApp1\WpfApp1.vbproj", "{B8011CFE-2DE0-41B1-A1BB-8419A78F4475}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfControlLibrary_color_picker_copy", "..\WpfControlLibrary_color_picker_copy\WpfControlLibrary_color_picker_copy\WpfControlLibrary_color_picker_copy.csproj", "{05C02504-EC71-4959-B3EA-33501DD59EB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76CB5867-B1DF-4433-A297-4E3972A4A8D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76CB5867-B1DF-4433-A297-4E3972A4A8D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76CB5867-B1DF-4433-A297-4E3972A4A8D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76CB5867-B1DF-4433-A297-4E3972A4A8D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8011CFE-2DE0-41B1-A1BB-8419A78F4475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8011CFE-2DE0-41B1-A1BB-8419A78F4475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8011CFE-2DE0-41B1-A1BB-8419A78F4475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8011CFE-2DE0-41B1-A1BB-8419A78F4475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05C02504-EC71-4959-B3EA-33501DD59EB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05C02504-EC71-4959-B3EA-33501DD59EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05C02504-EC71-4959-B3EA-33501DD59EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05C02504-EC71-4959-B3EA-33501DD59EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

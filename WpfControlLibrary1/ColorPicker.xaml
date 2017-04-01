@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="ColorPicker"
+                xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Name="colorPicker">
+    <Grid Background="LightBlue">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+
+
+        <Slider Name="sliderRed" Minimum="0" Maximum="255"
+            Value="{Binding Path=Red, RelativeSource={RelativeSource FindAncestor,AncestorType={x:Type UserControl}}}">
+        </Slider>
+
+
+        <Slider Name="sliderGreen" Minimum="0" Maximum="255" Grid.Row="1"
+                  Value="{Binding Path=Green, RelativeSource={RelativeSource FindAncestor,AncestorType={x:Type UserControl}}}"></Slider>
+        <Slider Name="sliderBlue" Minimum="0" Maximum="255" Grid.Row="2"
+                  Value="{Binding Path=Blue, RelativeSource={RelativeSource FindAncestor,AncestorType={x:Type UserControl}}}"></Slider>
+        <Rectangle Grid.Column="1" Grid.RowSpan="3" Width="50" Stroke="Black" StrokeThickness="1"
+                   StrokeDashArray="2 1">
+            <Rectangle.Fill>
+                <SolidColorBrush Color="{Binding Path=Color, RelativeSource={RelativeSource FindAncestor,AncestorType={x:Type UserControl}}}"></SolidColorBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+    </Grid>
+</UserControl>
